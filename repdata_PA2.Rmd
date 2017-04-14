@@ -1,0 +1,31 @@
+---
+title: "Economic and Health Consequences of Storms in the US"
+author: "Yogesh Saletore"
+date: "April 14, 2017"
+output: html_document
+keep_md: true
+---
+```{r, echo = FALSE}
+opts_chunk$set(dev="png", dpi = 100)
+```
+
+# Economic and Health Consequences of Storms in the US
+
+## 1. Synopsis
+
+## 2. Data Processing
+
+### 1. Load Libraries
+```{r process data, echo = TRUE}
+library(ggplot2)
+library(plyr)
+```
+
+### 2. Load Data
+```{r process data, echo = TRUE}
+stormData <- read.csv(bzfile("repdata-data-StormData.csv.bz2"), header = T)
+```
+
+
+
+## 3. Results
